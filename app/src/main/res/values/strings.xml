@@ -4,4 +4,7 @@
     <string name="monika">Monika</string>
     <string name="para">This is my android application that am
     trying to execute </string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Enter email</string>
+    <string name="password">Enter Password</string>
 </resources>

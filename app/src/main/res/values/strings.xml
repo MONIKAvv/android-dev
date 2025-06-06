@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirst App</string>
+    <string name="button">Button</string>
+    <string name="monika">Monika</string>
+    <string name="para">This is my android application that am
+    trying to execute </string>
+</resources>

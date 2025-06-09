@@ -13,14 +13,19 @@
         android:theme="@style/Theme.MyFirstApp"
         tools:targetApi="31">
         <activity
-            android:name=".CardViewActivity"
+            android:name=".Splashscreen"
             android:exported="true" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".CardViewActivity"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".LinearVerticalActivity"

@@ -16,9 +16,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+//        maven {
+//            url = uri("https://jitpack.io")
+//        }
     }
 }
 
 rootProject.name = "MyFirst App"
 include(":app")
- 
+include(":app:startedkotlin")
+include(":startedkotlin")

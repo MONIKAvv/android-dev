@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "vv.monika.myfirstapp"
+    namespace = "vv.monika.startedkotlin"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "vv.monika.myfirstapp"
-        minSdk = 22
+        applicationId = "vv.monika.startedkotlin"
+        minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -49,12 +49,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.runtime.saved.instance.state)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.tools.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -62,7 +56,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-    implementation ("io.github.shashank02051997:FancyToast:2.0.2")
-//    implementation ("com.github.emreesen27:Android-Custom-Toast-Message:1.0.5")
 }

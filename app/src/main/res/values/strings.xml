@@ -8,4 +8,5 @@
     <string name="name">Enter email</string>
     <string name="password">Enter Password</string>
     <string name="two">Two</string>
+    <string name="message">This is delete Alert by monika all files will delete if you click yes </string>
 </resources>

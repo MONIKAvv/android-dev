@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BundlestoragePage">
+
+    <TextView
+        android:id="@+id/storename"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:hint="name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/storerollno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Roll no."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/storefathername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/storefathername"
+        app:layout_constraintTop_toBottomOf="@+id/storefathername" />
+
+    <TextView
+        android:id="@+id/storephone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="24dp"
+        android:hint="Phone no."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/storerollno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/storerollno"
+        app:layout_constraintTop_toBottomOf="@+id/storerollno" />
+
+    <TextView
+        android:id="@+id/storefathername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Father Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/storename"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/storename"
+        app:layout_constraintTop_toBottomOf="@+id/storename" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

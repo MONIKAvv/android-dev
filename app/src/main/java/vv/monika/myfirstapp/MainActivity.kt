@@ -1,9 +1,12 @@
 package vv.monika.myfirstapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.cazaea.sweetalert.SweetAlertDialog
 
 
 class MainActivity : AppCompatActivity() {
@@ -38,7 +41,39 @@ class MainActivity : AppCompatActivity() {
 
 //            open menu
 
-            menucustom.showMenu(this, it)
+//            menucustom.showMenu(this, it)
+//            SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
+//                .setTitleText("Good job!")
+//                .setContentText("You clicked the button Monika yeeeeee!!!")
+//                .setConfirmText("Okay!")
+//                .show()
+
+//            go to next page
+            val intent = Intent(this,LinearHorizontalActivity::class.java )
+            startActivity(intent)
+
+//            val dialog = AlertDialog.Builder(this)
+//            dialog.setTitle("You sure you want to delete this?")
+//            dialog.setMessage(R.string.message)
+//            dialog.setIcon(R.drawable.baseline_add_reaction_24)
+
+//            dialog.setPositiveButton("YES"){dialogInterface, which ->
+//                Toast.makeText(this, "Clicked Yes", Toast.LENGTH_SHORT).show()
+//            }
+//
+//            dialog.setNegativeButton("NO"){dialogInterface, which ->
+//                Toast.makeText(this, "Clicked No", Toast.LENGTH_SHORT).show()
+//            }
+//
+//            dialog.setNeutralButton("CANCEL"){dialogInterface, which ->
+//                Toast.makeText(this, "Clicked cancel", Toast.LENGTH_SHORT).show()
+//            }
+
+//            val alertDialog:AlertDialog = dialog.create()
+//            alertDialog.setCancelable(false)
+//            alertDialog.show()
+
+
 
 
         }

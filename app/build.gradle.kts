@@ -55,6 +55,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.tools.core)
+    implementation(libs.androidx.gridlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -62,7 +63,16 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
+//toast
     implementation ("io.github.shashank02051997:FancyToast:2.0.2")
 //    implementation ("com.github.emreesen27:Android-Custom-Toast-Message:1.0.5")
+//    sweetalert dialogue
+    implementation ("com.github.cazaea:sweet-alert-dialog:1.0.0")
+//    webview
+    implementation("androidx.webkit:webkit:1.8.0")
+//    botton navigation bar
+    implementation ("nl.joery.animatedbottombar:library:1.1.0")
+//    custom loading spinkit
+    implementation ("com.github.ybq:Android-SpinKit:1.4.0")
+
 }
